@@ -37,6 +37,7 @@ form button:hover {
   background: #ff6f47;
   color: white;
 }
+
 .todo-container {
   display: flex;
   justify-content: center;
@@ -61,6 +62,11 @@ form button:hover {
 .filter-todo {
   padding: 1rem;
 }
+
+.filter-todo button {
+  padding: 0px 0px 0px 0px;
+}
+
 .todo li {
   flex: 1;
 }
